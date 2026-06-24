@@ -6,6 +6,7 @@ def get_dataset_path(subset_name: str) -> str:
         "nlp": Path("data") / "sycophancy_nlp.jsonl",
         "phi": Path("data") / "sycophancy_phi.jsonl",
         "political": Path("data") / "sycophancy_political.jsonl",
+        "truthfulqa": Path("data") / "sycophancy_truthfulqa.jsonl",
     }
 
     return dataset_collection[subset_name]
